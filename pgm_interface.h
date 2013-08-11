@@ -4,7 +4,6 @@
 #include <stdint.h>
 
 static const uint16_t PGM_MAGIC = 0x3550;          //nombre magique
-static const char*    PGM_HEADR = "\n%d %d\n%d\n"; //format d'entête
 static const uint16_t BUFF_SIZE = 1 << 8;          //taille du tampon
 
 /*Structure contenant l'image en niveaux de gris*/
