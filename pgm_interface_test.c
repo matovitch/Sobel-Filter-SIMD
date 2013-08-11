@@ -5,7 +5,7 @@
 int main(int argc, char** argv) {
 
     if (argc != 3) {
-        printf("Erreur : Mauvais nombre d'argument.\n");
+        printf("Erreur : Mauvais nombre d'arguments.\n");
         return -1;
     }
 
