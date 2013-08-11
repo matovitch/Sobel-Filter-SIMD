@@ -40,7 +40,7 @@ void load_from_pgm(char* filename, greyscale_image* to_load) {
         return;
     }
 
-    fgets(buff, sizeof buff, file); //passe la ligne de la valeur maximale
+    fgets(buff, sizeof buff, file); //passe la ligne '255\n'
     
     //copie les pixels en mémoire
     fread(to_load->pixels, sizeof(uint8_t),  
