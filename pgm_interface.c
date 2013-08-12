@@ -8,7 +8,6 @@
 
 void load_from_pgm(char* filename, greyscale_image* to_load) {
     char buff[BUFF_SIZE];               //allocation d'un tampon
-    uint32_t offset = 0;                //curseur d'écriture
     FILE* file = fopen(filename, "r");  //ouverture du fichier
 
     if (file == NULL) {
